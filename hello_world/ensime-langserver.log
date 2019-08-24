@@ -1,0 +1,411 @@
+[2019-08-24 17:45:28,593] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/abyssparanoia/workspace/other/scala-playground/hello_world
+[2019-08-24 17:45:28,593] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/abyssparanoia/workspace/other/scala-playground/hello_world
+[2019-08-24 17:45:28,600] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/abyssparanoia/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-08-24 17:45:28,600] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/abyssparanoia/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-08-24 17:45:28,688] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1259
+[2019-08-24 17:45:28,688] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1259
+[2019-08-24 17:45:28,697] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":40371,"rootPath":"/Users/abyssparanoia/workspace/other/scala-playground/hello_world","rootUri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-08-24 17:45:28,697] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":40371,"rootPath":"/Users/abyssparanoia/workspace/other/scala-playground/hello_world","rootUri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-08-24 17:45:28,972] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 40371, /Users/abyssparanoia/workspace/other/scala-playground/hello_world, ClientCapabilities()
+[2019-08-24 17:45:28,972] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 40371, /Users/abyssparanoia/workspace/other/scala-playground/hello_world, ClientCapabilities()
+[2019-08-24 17:45:28,973] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/abyssparanoia/workspace/other/scala-playground/hello_world/.ensime" 
+[2019-08-24 17:45:28,973] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/abyssparanoia/workspace/other/scala-playground/hello_world/.ensime" 
+[2019-08-24 17:45:29,252] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[2019-08-24 17:45:29,336] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Users/abyssparanoia/workspace/other/scala-playground/hello_world/.ensime
+[2019-08-24 17:45:29,336] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Users/abyssparanoia/workspace/other/scala-playground/hello_world/.ensime
+[2019-08-24 17:45:29,373] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-08-24 17:45:29,373] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-08-24 17:45:29,373] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-08-24 17:45:29,373] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-08-24 17:45:29,421] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-08-24 17:45:29,421] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-08-24 17:45:29,421] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-08-24 17:45:29,421] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-08-24 17:45:29,422] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-08-24 17:45:29,422] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-08-24 17:45:29,422] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-08-24 17:45:29,422] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-08-24 17:45:29,432] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-08-24 17:45:29,432] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-08-24 17:45:29,433] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 385
+[2019-08-24 17:45:29,433] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 385
+[2019-08-24 17:45:29,434] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","languageId":"scala","version":1,"text":"package example\n\nobject Hello extends Greeting with App {\n  println(greeting)\n}\n\ntrait Greeting {\n  lazy val greeting: String = \"hello\"\n}\n"}}}
+[2019-08-24 17:45:29,434] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","languageId":"scala","version":1,"text":"package example\n\nobject Hello extends Greeting with App {\n  println(greeting)\n}\n\ntrait Greeting {\n  lazy val greeting: String = \"hello\"\n}\n"}}}
+[2019-08-24 17:45:29,439] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1721
+[2019-08-24 17:45:29,439] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1721
+[2019-08-24 17:45:29,440] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/build.sbt","languageId":"scala","version":1,"text":"import Dependencies._\n\nThisBuild / scalaVersion     := \"2.12.8\"\nThisBuild / version          := \"0.1.0-SNAPSHOT\"\nThisBuild / organization     := \"com.example\"\nThisBuild / organizationName := \"example\"\n\nlazy val root = (project in file(\".\"))\n  .settings(\n    name := \"hello_world\",\n    libraryDependencies += scalaTest % Test\n  )\n\n// Uncomment the following for publishing to Sonatype.\n// See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for more detail.\n\n// ThisBuild / description := \"Some descripiton about your project.\"\n// ThisBuild / licenses    := List(\"Apache 2\" -> new URL(\"http://www.apache.org/licenses/LICENSE-2.0.txt\"))\n// ThisBuild / homepage    := Some(url(\"https://github.com/example/project\"))\n// ThisBuild / scmInfo := Some(\n//   ScmInfo(\n//     url(\"https://github.com/your-account/your-project\"),\n//     \"scm:git@github.com:your-account/your-project.git\"\n//   )\n// )\n// ThisBuild / developers := List(\n//   Developer(\n//     id    = \"Your identifier\",\n//     name  = \"Your Name\",\n//     email = \"your@email\",\n//     url   = url(\"http://your.url\")\n//   )\n// )\n// ThisBuild / pomIncludeRepository := { _ => false }\n// ThisBuild / publishTo := {\n//   val nexus = \"https://oss.sonatype.org/\"\n//   if (isSnapshot.value) Some(\"snapshots\" at nexus + \"content/repositories/snapshots\")\n//   else Some(\"releases\" at nexus + \"service/local/staging/deploy/maven2\")\n// }\n// ThisBuild / publishMavenStyle := true\n"}}}
+[2019-08-24 17:45:29,440] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/build.sbt","languageId":"scala","version":1,"text":"import Dependencies._\n\nThisBuild / scalaVersion     := \"2.12.8\"\nThisBuild / version          := \"0.1.0-SNAPSHOT\"\nThisBuild / organization     := \"com.example\"\nThisBuild / organizationName := \"example\"\n\nlazy val root = (project in file(\".\"))\n  .settings(\n    name := \"hello_world\",\n    libraryDependencies += scalaTest % Test\n  )\n\n// Uncomment the following for publishing to Sonatype.\n// See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for more detail.\n\n// ThisBuild / description := \"Some descripiton about your project.\"\n// ThisBuild / licenses    := List(\"Apache 2\" -> new URL(\"http://www.apache.org/licenses/LICENSE-2.0.txt\"))\n// ThisBuild / homepage    := Some(url(\"https://github.com/example/project\"))\n// ThisBuild / scmInfo := Some(\n//   ScmInfo(\n//     url(\"https://github.com/your-account/your-project\"),\n//     \"scm:git@github.com:your-account/your-project.git\"\n//   )\n// )\n// ThisBuild / developers := List(\n//   Developer(\n//     id    = \"Your identifier\",\n//     name  = \"Your Name\",\n//     email = \"your@email\",\n//     url   = url(\"http://your.url\")\n//   )\n// )\n// ThisBuild / pomIncludeRepository := { _ => false }\n// ThisBuild / publishTo := {\n//   val nexus = \"https://oss.sonatype.org/\"\n//   if (isSnapshot.value) Some(\"snapshots\" at nexus + \"content/repositories/snapshots\")\n//   else Some(\"releases\" at nexus + \"service/local/staging/deploy/maven2\")\n// }\n// ThisBuild / publishMavenStyle := true\n"}}}
+[2019-08-24 17:45:29,443] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 207
+[2019-08-24 17:45:29,443] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 207
+[2019-08-24 17:45:29,443] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"}}}
+[2019-08-24 17:45:29,443] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"}}}
+[2019-08-24 17:45:29,446] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2019-08-24 17:45:29,446] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2019-08-24 17:45:29,446] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2019-08-24 17:45:29,446] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2019-08-24 17:45:39,445] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 169
+[2019-08-24 17:45:39,445] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 169
+[2019-08-24 17:45:39,445] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/build.sbt"}}}
+[2019-08-24 17:45:39,445] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/build.sbt"}}}
+[2019-08-24 17:45:39,447] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/build.sbt from Ensime.
+[2019-08-24 17:45:39,447] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/build.sbt from Ensime.
+[2019-08-24 17:46:25,829] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 207
+[2019-08-24 17:46:25,829] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 207
+[2019-08-24 17:46:25,829] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"}}}
+[2019-08-24 17:46:25,829] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"}}}
+[2019-08-24 17:46:25,831] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":2}
+[2019-08-24 17:46:25,831] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":2}
+[2019-08-24 17:46:25,831] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":2}
+[2019-08-24 17:46:25,831] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":2}
+[2019-08-24 17:46:26,403] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 387
+[2019-08-24 17:46:26,403] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 387
+[2019-08-24 17:46:26,406] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1},"contentChanges":[{"text":"package example\n\nobject Hello extends Greeting with App {\n  println(greeting)\n}\n\ntrait Greeting {\n  lazy val greeting: String = \"hello\"\n}\n"}]}}
+[2019-08-24 17:46:26,406] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1},"contentChanges":[{"text":"package example\n\nobject Hello extends Greeting with App {\n  println(greeting)\n}\n\ntrait Greeting {\n  lazy val greeting: String = \"hello\"\n}\n"}]}}
+[2019-08-24 17:46:26,413] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-08-24 17:46:26,413] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-08-24 17:46:26,414] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 205
+[2019-08-24 17:46:26,414] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 205
+[2019-08-24 17:46:26,414] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1}}}
+[2019-08-24 17:46:26,414] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1}}}
+[2019-08-24 17:46:26,416] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - saveTextDocuemnt TextDocumentIdentifier(file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala)
+[2019-08-24 17:46:26,416] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - saveTextDocuemnt TextDocumentIdentifier(file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala)
+[2019-08-24 17:46:26,579] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 387
+[2019-08-24 17:46:26,579] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 387
+[2019-08-24 17:46:26,580] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1},"contentChanges":[{"text":"package example\n\nobject Hello extends Greeting with App {\n  println(greeting)\n}\n\ntrait Greeting {\n  lazy val greeting: String = \"hello\"\n}\n"}]}}
+[2019-08-24 17:46:26,580] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1},"contentChanges":[{"text":"package example\n\nobject Hello extends Greeting with App {\n  println(greeting)\n}\n\ntrait Greeting {\n  lazy val greeting: String = \"hello\"\n}\n"}]}}
+[2019-08-24 17:46:26,583] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-08-24 17:46:26,583] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-08-24 17:46:26,583] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 205
+[2019-08-24 17:46:26,583] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 205
+[2019-08-24 17:46:26,583] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1}}}
+[2019-08-24 17:46:26,583] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala","version":1}}}
+[2019-08-24 17:46:26,584] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - saveTextDocuemnt TextDocumentIdentifier(file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala)
+[2019-08-24 17:46:26,584] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - saveTextDocuemnt TextDocumentIdentifier(file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala)
+[2019-08-24 17:46:27,559] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 234
+[2019-08-24 17:46:27,559] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 234
+[2019-08-24 17:46:27,560] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"},"position":{"line":6,"character":5}}}
+[2019-08-24 17:46:27,560] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"},"position":{"line":6,"character":5}}}
+[2019-08-24 17:46:27,562] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (6, 5).
+[2019-08-24 17:46:27,562] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (6, 5).
+[2019-08-24 17:46:27,569] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-08-24 17:46:27,569] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-08-24 17:46:27,570] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-08-24 17:46:27,570] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-08-24 17:46:27,608] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-08-24 17:46:27,608] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-08-24 17:46:27,609] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}
+[2019-08-24 17:46:27,609] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}
+[2019-08-24 17:46:27,610] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(3)
+[2019-08-24 17:46:27,610] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(3)
+[2019-08-24 17:46:27,759] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 234
+[2019-08-24 17:46:27,759] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 234
+[2019-08-24 17:46:27,760] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"},"position":{"line":6,"character":4}}}
+[2019-08-24 17:46:27,760] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"},"position":{"line":6,"character":4}}}
+[2019-08-24 17:46:27,761] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (6, 4).
+[2019-08-24 17:46:27,761] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (6, 4).
+[2019-08-24 17:46:27,761] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-08-24 17:46:27,761] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-08-24 17:46:27,762] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-08-24 17:46:27,762] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-08-24 17:46:28,363] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-08-24 17:46:28,363] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-08-24 17:46:28,364] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":4}}
+[2019-08-24 17:46:28,364] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":4}}
+[2019-08-24 17:46:28,365] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(4)
+[2019-08-24 17:46:28,365] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(4)
+[2019-08-24 17:46:29,450] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 235
+[2019-08-24 17:46:29,450] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 235
+[2019-08-24 17:46:29,451] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":5,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"},"position":{"line":6,"character":10}}}
+[2019-08-24 17:46:29,451] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":5,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/abyssparanoia/workspace/other/scala-playground/hello_world/src/main/scala/example/Hello.scala"},"position":{"line":6,"character":10}}}
+[2019-08-24 17:46:29,452] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (6, 10).
+[2019-08-24 17:46:29,452] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (6, 10).
+[2019-08-24 17:46:29,452] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-08-24 17:46:29,452] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-08-24 17:46:29,452] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-08-24 17:46:29,452] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-08-24 17:46:29,634] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-08-24 17:46:29,634] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-08-24 17:46:29,634] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":5}}
+[2019-08-24 17:46:29,634] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":5}}
+[2019-08-24 17:46:29,636] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(5)
+[2019-08-24 17:46:29,636] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(5)
+[2019-08-24 17:46:30,993] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 58
+[2019-08-24 17:46:30,993] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 58
+[2019-08-24 17:46:30,993] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":6,"method":"shutdown","params":null}
+[2019-08-24 17:46:30,993] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":6,"method":"shutdown","params":null}
+[2019-08-24 17:46:31,002] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":6}
+[2019-08-24 17:46:31,002] DEBUG langserver.core.MessageWriter - Content-Length: 198
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":6}
+[2019-08-24 17:46:31,002] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":6}
+[2019-08-24 17:46:31,002] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":6}
+[2019-08-24 17:46:32,003] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-08-24 17:46:32,003] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-08-24 17:46:32,003] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-08-24 17:46:32,003] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-08-24 17:46:32,003] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-08-24 17:46:32,003] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-08-24 17:46:32,049] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
+[2019-08-24 17:46:32,049] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
