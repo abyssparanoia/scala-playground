@@ -14,7 +14,6 @@ libraryDependencies ++= Seq(
   "com.pauldijou" %% "jwt-play-json" % "3.0.1"
 )
 
-
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.example.controllers._"
 
