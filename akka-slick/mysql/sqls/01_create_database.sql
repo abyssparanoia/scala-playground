@@ -1,0 +1,1 @@
+CREATE DATABASE scala_playground;
