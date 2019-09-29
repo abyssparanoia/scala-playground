@@ -1,6 +1,6 @@
 scalaVersion := "2.12.10"
 
-val akkaV = "2.5.11"
+val akkaV = "2.5.23"
 val slickVersion = "3.3.0"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-http" % "10.1.0"
