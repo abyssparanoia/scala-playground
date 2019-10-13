@@ -49,3 +49,5 @@ Caused by: java.lang.UnsupportedOperationException
 	... 16 more
 
 WARN  no build target: /Users/abyssparanoia/workspace/other/scala-playground/play/project/plugins.sbt
+INFO  time: initialize in 0.27s
+WARN  no build tool detected in workspace '/Users/abyssparanoia/workspace/other/scala-playground'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
