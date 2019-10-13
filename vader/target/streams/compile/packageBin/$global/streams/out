@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/abyssparanoia/workspace/other/scala-playground/vader/target/scala-2.12/vader_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/ovrmrw/akka/WebServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/abyssparanoia/workspace/other/scala-playground/vader/target/scala-2.12/classes/com/ovrmrw/akka/WebServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/ovrmrw[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/abyssparanoia/workspace/other/scala-playground/vader/target/scala-2.12/classes/com/ovrmrw[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/ovrmrw/akka/WebServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/abyssparanoia/workspace/other/scala-playground/vader/target/scala-2.12/classes/com/ovrmrw/akka/WebServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/ovrmrw/akka[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/abyssparanoia/workspace/other/scala-playground/vader/target/scala-2.12/classes/com/ovrmrw/akka[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/abyssparanoia/workspace/other/scala-playground/vader/target/scala-2.12/classes/com[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

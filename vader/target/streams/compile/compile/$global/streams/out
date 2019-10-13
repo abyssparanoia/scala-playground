@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/abyssparanoia/workspace/other/scala-playground/vader/src/main/scala/com/ovrmrw/akka/WebServer.scala:13:16: ';' expected but 'val' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    implicitly val system = ActorSystem("my-system")[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abyssparanoia/workspace/other/scala-playground/vader/src/main/scala/com/ovrmrw/akka/WebServer.scala:14:16: ';' expected but 'val' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    implicitly val materialize = ActorMaterializer()[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abyssparanoia/workspace/other/scala-playground/vader/src/main/scala/com/ovrmrw/akka/WebServer.scala:15:16: ';' expected but 'val' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    implicitly val executionContext = system.dispatcher[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
