@@ -14,12 +14,16 @@ trait UserTable extends DefaultJsonProtocol {
   class UserTable(tag:Tag) extends Table[User](tag, "user") {
     val id = column[String]("id",O.PrimaryKey)
     val name = column[String]("name")
+    val password = column[String]("password")
+    val createdAt = column[Int]("created_at")
+    val updatedAt = column[Int]("updated_at")
+    val deletedAt = column[Option[Int]]("deleted_at")
 
-    def * = (id.?,name) <> (User.tupled, User.unapply)
+    def * = (id.?,name,password,createdAt,updatedAt,deletedAt) <> (User.tupled, User.unapply)
 
   }
 
 }
 
-case class User(id: Option[String] = None, name: String)
+case class User(id: Option[String] = None, name: String, password: String,createdAt: Int, updatedAt: Int, deletedAt: Option[Int] = None)
 case class UserList(users: List[User])
