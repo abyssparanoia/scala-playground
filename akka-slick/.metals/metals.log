@@ -2574,3 +2574,8 @@ INFO  time: indexed workspace in 0.39s
 INFO  compiling akka-slick (5 scala sources)
 WARN  there were two deprecation warnings (since 3.2); re-run with -deprecation for details
 INFO  time: compiled akka-slick in 1.58s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in /Users/abyssparanoia/workspace/other/scala-playground/akka-slick/.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
